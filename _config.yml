@@ -1,0 +1,20 @@
+# Dependencies
+markdown:         kramdown
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Ali Rahmani
+tagline:          'Personal Site'
+description:      ''
+url:              https://AliRahmani.github.io/
+
+highlighter:      rouge
+markdown:         kramdown
+
+paginate:         5
+
+github:
+  repo:           https://github.com/AliRahmani/AliRahmani.github.io

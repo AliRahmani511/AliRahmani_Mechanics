@@ -1,0 +1,36 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>{{ site.title }}</h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}">
+        <a href="/">Home</a>
+      </li>
+
+      <!-- <li class="sidebar-nav-item"><a href="/about">About Me</a></li>
+      <li class="sidebar-nav-item"><a href="/research">Research Portfolio</a></li>
+      <li class="sidebar-nav-item"><a href="http://nbviewer.jupyter.org/github/mbarzegary/MyCV-shortened/blob/main/main.pdf">My CV</a></li>
+      <li class="sidebar-nav-item"><a href="/publications">Publications</a></li>
+      <li class="sidebar-nav-item"><a href="/presentations">Presentations</a></li>
+      <li class="sidebar-nav-item"><a href="/projects">Code & Software</a></li>
+      <li class="sidebar-nav-item"><a href="/videos">Videos</a></li>
+      <li class="sidebar-nav-item"><a href="/blog">Blog Posts</a></li>
+      <li class="sidebar-nav-item"><a href="/research/phd">My PhD Project</a></li>
+      <li class="sidebar-nav-item"><a href="https://mbarzegary.github.io/research-tech-radar/">Research Technology Radar</a></li>
+      <li class="sidebar-nav-item"><a href="/usefulbooks">Useful Books & Links</a></li>
+      <li class="sidebar-nav-item"><a href="/contact">Contact Me</a></li> -->
+
+
+      <ul style="margin-left: -15px" class="icon-effect icon-effect-1a">
+        <li><a target="_blank" href="https://github.com/AliRahmani511" class="icon"><i class="fab fa-github"></i></a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/ali-rahmani-mechanics" class="icon"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a target="_blank" href="https://twitter.com/ali_rahmani_" class="icon"><i class="fab fa-twitter"></i></a></li>
+      </ul>
+    </ul>
+
+    <p>{{ site.time | date: '%Y' }} All rights reserved for Hyde!</p>
+  </div>
+</div>
