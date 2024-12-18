@@ -9,7 +9,7 @@ permalink:        pretty
 title:            Ali Rahmani
 tagline:          'Personal Site'
 description:      ''
-url:              https://AliRahmani.github.io/
+url:              https://alirahmani-mechanics.github.io/
 
 highlighter:      rouge
 markdown:         kramdown
@@ -17,4 +17,4 @@ markdown:         kramdown
 paginate:         5
 
 github:
-  repo:           https://github.com/AliRahmani/AliRahmani.github.io
+  repo:           https://github.com/alirahmani-mechanics/AliRahmani_Personal_Website.github.io
