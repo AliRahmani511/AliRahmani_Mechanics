@@ -36,7 +36,7 @@ ul.icon-effect > li {
   color: #f1f1f1;
   line-height: 52px;
   text-align: center;
-  background-color: #3b768f;
+  background-color: rgb(30, 144, 100);
 }
 .icon:after {
   position: absolute;
